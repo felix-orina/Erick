@@ -1,0 +1,12 @@
+# robots.txt for https://technopickltd.com
+
+User-agent: *
+Allow: /
+
+# Block access to hidden or private files (adjust as needed)
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /drafts/
+
+# Sitemap location
+Sitemap: https://technopickltd.com/sitemap.xml
