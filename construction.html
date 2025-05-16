@@ -18,6 +18,7 @@
   <meta name="description" content="Technopick Ltd offers custom business software solutions for the construction industry, including project management, licensing, and branding." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://technopickltd.com/construction.html" />
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 
   <title>Technopick Ltd | Construction Business Software Solutions</title>
 
@@ -375,10 +376,11 @@
 </footer>
 
 
+
 <script>
   // Initialize EmailJS with your User ID
   (function() {
-    emailjs.init("iS_KZTmI-PCD5yv-7");  // Replace with your EmailJS user ID
+    emailjs.init("X9-7whpzqk1ZJoXpb");  // Replace with your EmailJS user ID
   })();
 
   // Listen for form submission
@@ -386,7 +388,7 @@
     event.preventDefault(); // Prevent the default form submission
 
     // Send email with EmailJS
-    emailjs.sendForm("service_np3ytu1", "template_vw4yete", this)  // Replace these with your Service ID and Template ID
+    emailjs.sendForm("service_ube7jkx", "template_dmh73ua", this)  // Replace these with your Service ID and Template ID
       .then(function(response) {
         console.log("Success:", response);
         alert("Your message has been sent! We'll get back to you soon.");
@@ -397,7 +399,6 @@
       });
   });
 </script>
-
 
 
 
